@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5, CSS3, and JavaScript 6th Edition
+   Tutorial 12
+   Case Problem 1
+
+   Elegant Style Sheet
+
+   Filename:         na_style_1.css
+   Supporting Files: 
+
+*/
+
+/* Set the default page element styles */
+
+body {
+  background: url(na_back_1.png) repeat top left / 530px 300px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Main Section Styles */
+section#main {
+  background: rgb(59, 136, 197);
+  box-shadow: rgb(43, 87, 129) 0px 0px 50px;
+}
+
+div#box {
+  background: url(na_wall_1.png) no-repeat;
+  background-size: cover;
+}
+/* Article Styles */
+
+article {
+  position: absolute;
+  color: rgb(102, 115, 126);
+  top: 15px;
+  left: 620px;
+  width: 240px;
+  font-size: 1.4em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+article p {
+  margin: 0px 0px 10px 0px;
+  text-shadow: rgb(255, 255, 255) 3px 3px 8px;
+}
+
+address {
+  color: rgb(227, 227, 163);
+}
+
+/* Page footer styles */
+
+footer span a:hover {
+  color: rgb(227, 227, 163);
+}

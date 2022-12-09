@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5, CSS3, and JavaScript 6th Edition
+   Tutorial 12
+   Case Problem 1
+
+   Zany Style Sheet
+
+   Filename:         na_style_4.css
+   Supporting Files: 
+
+*/
+
+/* Set the default page element styles */
+
+body {
+  background: url(na_back_4.png) repeat top left/ 450px 450px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Main Section Styles */
+section#main {
+  background: rgb(211, 109, 0);
+  box-shadow: rgb(211, 109, 0) 0px 0px 50px;
+}
+
+div#box {
+  background: url(na_wall_4.png) no-repeat;
+  background-size: cover;
+}
+/* Article Styles */
+
+article {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 230px;
+  font-size: 0.9em;
+}
+
+article p {
+  font-family: "Comic Sans MS", cursive;
+  letter-spacing: 1px;
+  margin: 0px 0px 10px 0px;
+  width: 220px;
+}
+
+article p:first-of-type {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  -o-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
+  -webkit-transform: rotate(-25deg);
+  -ms-transform: rotate(-25deg);
+  transform: rotate(-25deg);
+  border: 3px solid rgb(211, 109, 0);
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  padding: 10px;
+  color: rgb(211, 109, 0);
+  background-color: rgb(249, 249, 165);
+
+  -moz-box-shadow: black 7px 7px 0px;
+  webkit-box-shadow: black 7px 7px 0px;
+  box-shadow: black 7px 7px 0px;
+}
+
+article p:last-of-type {
+  position: absolute;
+  top: 160px;
+  left: 145px;
+  width: 150px;
+  -o-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  transform: rotate(25deg);
+  border: 3px solid rgb(211, 109, 0);
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  padding: 10px;
+  color: rgb(211, 109, 0);
+  background-color: rgb(199, 242, 242);
+
+  -moz-box-shadow: black 7px -7px 0px;
+  webkit-box-shadow: black 7px -7px 0px;
+  box-shadow: black 7px -7px 0px;
+}
+
+address {
+  color: black;
+}
+
+/* Page footer styles */
+
+footer span a:hover {
+  color: black;
+}
